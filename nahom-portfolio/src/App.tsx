@@ -18,7 +18,7 @@ import {
 import type { PaletteMode } from '@mui/material';
 import { MdDarkMode, MdDownload, MdKeyboardArrowDown, MdLightMode } from 'react-icons/md';
 import { buildTheme, glassBackground, glassBorder, pageGradient } from './theme';
-import { navItems, profile, resume } from './data/portfolio';
+import { navItems, profile, publicAsset, resume } from './data/portfolio';
 
 const brandFont = '"Ubuntu", Arial, sans-serif';
 
@@ -100,7 +100,7 @@ const App = () => {
               >
                 <Box
                   component="img"
-                  src="/favicon.svg"
+                  src={publicAsset('favicon.svg')}
                   alt="Nahom Woldeab initials"
                   sx={{
                     width: { xs: 42, md: 48 },

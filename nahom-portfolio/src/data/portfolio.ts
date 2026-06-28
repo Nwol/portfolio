@@ -10,9 +10,11 @@ export const profile = {
     'Highly motivated software engineer with 6+ years of experience developing, testing, and debugging high-performing software. Skilled across backend architecture, web development, infrastructure, and database management, with a strong eye for detail and a passion for learning new technologies.',
 };
 
+export const publicAsset = (fileName: string) => `${import.meta.env.BASE_URL}${fileName}`;
+
 export const resume = {
   label: "Nahom Woldeab's Resume",
-  file: '/Nahom-Woldeab-Resume.pdf',
+  file: publicAsset('Nahom-Woldeab-Resume.pdf'),
   downloadName: 'Nahom-Woldeab-Resume.pdf',
 };
 
