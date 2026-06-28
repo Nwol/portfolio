@@ -10,7 +10,7 @@ const About = () => {
             About
           </Typography>
           <Typography variant="h2" sx={{ fontSize: { xs: 34, md: 48 }, mb: 2 }}>
-            Software engineer focused on polished, scalable web systems.
+            Software engineer who improves product quality, delivery speed, and frontend scale.
           </Typography>
           <Typography variant="h6" color="text.secondary">
             {profile.summary}

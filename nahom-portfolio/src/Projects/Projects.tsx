@@ -10,11 +10,11 @@ const Projects = () => {
           Projects
         </Typography>
         <Typography variant="h2" sx={{ fontSize: { xs: 34, md: 48 } }}>
-          Product-minded apps across web, cloud, and mobile.
+          Product-minded apps across web, cloud, backend, and mobile.
         </Typography>
         <Typography color="text.secondary" sx={{ mt: 1, maxWidth: 820 }}>
-          These projects use the same practical instincts from my resume: map-based workflows,
-          cloud persistence, backend APIs, containerized services, and responsive frontend work.
+          These projects reflect the same strengths from my professional work: practical workflows,
+          cloud persistence, backend APIs, containerized services, and responsive frontend delivery.
         </Typography>
       </Box>
 

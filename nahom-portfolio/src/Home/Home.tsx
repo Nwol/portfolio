@@ -20,7 +20,7 @@ const Home = () => {
                   {profile.name}
                 </Typography>
                 <Typography variant="h4" color="text.secondary" sx={{ mt: 1 }}>
-                  {profile.role}
+                  {profile.role} | React, TypeScript, Java & Cloud Systems
                 </Typography>
               </Box>
 
@@ -89,8 +89,8 @@ const Home = () => {
             Featured Projects
           </Typography>
           <Typography color="text.secondary" sx={{ mt: 1, maxWidth: 760 }}>
-            Three projects that show how I approach product workflows, cloud-backed apps, and
-            full-stack experiments across web, backend, and mobile clients.
+            Selected projects that show product thinking, cloud-backed architecture, and hands-on
+            delivery across web, backend, and mobile clients.
           </Typography>
         </Box>
 

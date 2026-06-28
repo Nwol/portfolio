@@ -6,8 +6,9 @@ export const profile = {
   phone: '(571) 594-4856',
   linkedIn: 'https://www.linkedin.com/in/nahom-woldeab-98a8b4120/',
   github: 'https://github.com/nwol',
+  portfolio: 'https://nwol.github.io/portfolio',
   summary:
-    'Highly motivated software engineer with 6+ years of experience developing, testing, and debugging high-performing software. Skilled across backend architecture, web development, infrastructure, and database management, with a strong eye for detail and a passion for learning new technologies.',
+    'Software engineer with 6+ years of experience building distributed, high-performing web applications across frontend, backend, infrastructure, and database layers. Proven impact in React modernization, test automation, CI/CD optimization, accessibility, and reusable component systems at production scale.',
 };
 
 export const publicAsset = (fileName: string) => `${import.meta.env.BASE_URL}${fileName}`;
@@ -19,14 +20,15 @@ export const resume = {
 };
 
 export const highlights = [
-  'Distributed web applications for 39,000+ registrars and companies',
-  'React, TypeScript, Java, Spring, PostgreSQL, Docker, and OpenStack',
-  'Frontend modernization, test optimization, accessibility, and mentoring',
+  'Built registry-service applications used by 39,000+ registrars and companies serving billions of customers',
+  'Modern React, TypeScript, Java, Spring, PostgreSQL, Docker, OpenStack, and CI/CD delivery',
+  'Known for measurable improvements: 50% faster frontend PR builds, 30% faster Selenium suites, and stronger test coverage',
 ];
 
 export const impactMetrics = [
   { value: '6+', label: 'Years building software' },
   { value: '39K+', label: 'Registrars and companies supported' },
+  { value: 'Billions', label: 'End customers reached through registry services' },
   { value: '50%', label: 'Frontend PR cloud build reduction' },
   { value: '30%', label: 'Selenium runtime improvement' },
 ];
@@ -38,14 +40,13 @@ export const experiences = [
     location: 'Reston, VA',
     period: 'February 2022 - Present',
     bullets: [
-      'Developed distributed web applications using React, Spring, PostgreSQL, Docker, and OpenStack for 39,000+ registrars and companies.',
-      'Created a modern React frontend using Zustand store patterns and TanStack tooling.',
+      'Developed distributed web applications using React, Spring, PostgreSQL, Docker, and OpenStack for 39,000+ registrars and companies managing registry services for billions of customers.',
+      'Modernized React frontends using Zustand state management and TanStack tooling to improve maintainability and developer velocity.',
       'Optimized Selenium automation test runtime by 30% through parallel execution configuration.',
-      'Reduced GitHub pull-request cloud build time for the frontend by 50%.',
-      'Built modular components for a company-wide custom React UI library, improving code reuse across the organization.',
+      'Reduced GitHub pull-request cloud build time for frontend workflows by 50%.',
+      'Built modular components for a company-wide custom React UI library, improving reuse and consistency across the organization.',
       'Led the migration of a notifications management system from Thymeleaf to React.',
-      'Presented technical talks on existing products, projects, and new Java features including virtual threads.',
-      'Mentored new hires and interns on project workflows and the technology stack.',
+      'Mentored new hires and interns on project workflows, codebase patterns, and the team technology stack.',
     ],
   },
   {
@@ -58,7 +59,7 @@ export const experiences = [
       'Increased Angular Jest unit test coverage from 15% to 70%.',
       'Suggested and implemented lazy loading, improving page load times by 40%.',
       'Developed shared components and service modularity to enhance code reusability.',
-      'Created accessible frontend experiences aligned to Section 508 and WCAG 2.0 AA standards, tested with JAWS.',
+      'Created accessible frontend experiences aligned to Section 508 and WCAG 2.0 AA standards, validating changes with JAWS.',
       'Collaborated with UI/UX design to meet project design requirements.',
     ],
   },
@@ -132,9 +133,9 @@ export const projects = [
   {
     name: 'Subspace',
     description:
-      'A Reddit/Twitter-style social app built with Docker, Go, Svelte, and Flutter, hosted on Fly.io.',
+      'A Reddit/Twitter-style social platform built with Docker, Go, Svelte, and Flutter, hosted on Fly.io.',
     detail:
-      'Focused on full-stack product architecture across backend services, web UI, mobile client work, containerization, and cloud hosting.',
+      'Shows full-stack range across backend services, web UI, mobile client work, containerization, and cloud deployment.',
     tags: ['Go', 'Svelte', 'Flutter', 'Docker', 'Fly.io'],
   },
   {
@@ -142,7 +143,7 @@ export const projects = [
     description:
       'A React app that helps users locate campus parking spots using Google Maps API, Express.js, Firestore/Firebase, and Google Cloud.',
     detail:
-      'Built around a practical campus workflow: map-based discovery, cloud data storage, API integration, and a responsive React interface.',
+      'Turns a practical campus workflow into a responsive product with map-based discovery, API integration, and cloud persistence.',
     tags: ['React', 'Google Maps API', 'Express.js', 'Firebase', 'Google Cloud'],
   },
   {
@@ -150,7 +151,7 @@ export const projects = [
     description:
       'A React app for generating and storing memes on Firebase with Express.js and image editing/generation packages.',
     detail:
-      'Explored image generation workflows, NoSQL persistence, backend API support, and a fast interface for creating and saving content.',
+      'Combines a fast creative UI with image-generation tooling, NoSQL persistence, and backend API support.',
     tags: ['React', 'Express.js', 'Firebase', 'NoSQL'],
   },
 ];

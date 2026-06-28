@@ -9,7 +9,7 @@ const Experience = () => {
           Experience
         </Typography>
         <Typography variant="h2" sx={{ fontSize: { xs: 34, md: 48 } }}>
-          Building production software with measurable impact.
+          Production engineering with measurable business and developer impact.
         </Typography>
       </Box>
 
