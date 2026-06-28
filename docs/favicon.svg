@@ -1,71 +1,46 @@
 <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="edgeGradient" x1="16" y1="14" x2="112" y2="114" gradientUnits="userSpaceOnUse">
+    <linearGradient id="letterGradient" x1="18" y1="24" x2="114" y2="104" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#F7FFF9"/>
-      <stop offset="0.36" stop-color="#B8F37D"/>
-      <stop offset="0.72" stop-color="#38D89C"/>
-      <stop offset="1" stop-color="#067A49"/>
+      <stop offset="0.28" stop-color="#D9F99D"/>
+      <stop offset="0.62" stop-color="#6EE7B7"/>
+      <stop offset="1" stop-color="#16A34A"/>
     </linearGradient>
-    <linearGradient id="coreGradient" x1="26" y1="30" x2="110" y2="100" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#F9FFF6"/>
-      <stop offset="0.44" stop-color="#A7F3D0"/>
-      <stop offset="1" stop-color="#22C55E"/>
-    </linearGradient>
-    <filter id="softGlow" x="-18" y="-18" width="164" height="164" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#7BE6B8" flood-opacity="0.82"/>
-      <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#02130D" flood-opacity="0.45"/>
+    <filter id="letterGlow" x="-18" y="-18" width="164" height="164" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#86EFAC" flood-opacity="0.95"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#22C55E" flood-opacity="0.48"/>
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#02130D" flood-opacity="0.34"/>
     </filter>
   </defs>
 
-  <g filter="url(#softGlow)">
+  <g filter="url(#letterGlow)">
     <path
-      d="M64 12L108 36V92L64 116L20 92V36L64 12Z"
-      stroke="#062116"
-      stroke-width="8"
-      stroke-linejoin="round"
-    />
-    <path
-      d="M64 12L108 36V92L64 116L20 92V36L64 12Z"
-      stroke="url(#edgeGradient)"
-      stroke-width="4"
-      stroke-linejoin="round"
-    />
-
-    <path
-      d="M32 94V34L64 94V34"
-      stroke="#062116"
-      stroke-width="17"
+      d="M20 98V30L62 98V30"
+      stroke="#052116"
+      stroke-width="19"
       stroke-linecap="round"
       stroke-linejoin="round"
     />
     <path
-      d="M64 34L78 94L94 50L108 94"
-      stroke="#062116"
-      stroke-width="17"
+      d="M62 30L78 98L96 48L112 98"
+      stroke="#052116"
+      stroke-width="19"
       stroke-linecap="round"
       stroke-linejoin="round"
     />
     <path
-      d="M32 94V34L64 94V34"
-      stroke="url(#coreGradient)"
-      stroke-width="10"
+      d="M20 98V30L62 98V30"
+      stroke="url(#letterGradient)"
+      stroke-width="12"
       stroke-linecap="round"
       stroke-linejoin="round"
     />
     <path
-      d="M64 34L78 94L94 50L108 94"
-      stroke="url(#coreGradient)"
-      stroke-width="10"
+      d="M62 30L78 98L96 48L112 98"
+      stroke="url(#letterGradient)"
+      stroke-width="12"
       stroke-linecap="round"
       stroke-linejoin="round"
-    />
-
-    <path
-      d="M26 64H42M86 64H102M64 18V34M64 94V110"
-      stroke="#D9F99D"
-      stroke-width="4"
-      stroke-linecap="round"
-      opacity="0.85"
     />
   </g>
 </svg>
