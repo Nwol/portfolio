@@ -302,7 +302,7 @@ const App = () => {
           </AppBar>
         </Container>
 
-        <Container maxWidth="lg" sx={{ py: { xs: 4, md: 7 } }}>
+        <Container maxWidth="xl" sx={{ py: { xs: 4, md: 7 } }}>
           <Outlet />
         </Container>
       </Box>
